@@ -4,10 +4,9 @@ using System.Text;
 
 namespace PingvinArv
 {
-    public class Pingvin
+    public class Hund
     {
-        public static string artBeteckning = "A001";
-        public Pingvin(string forNamn, string efterNamn, double vikt)
+        public Hund(string forNamn, string efterNamn, double vikt)
         {            
             ForNamn = forNamn;
             EfterNamn = efterNamn;
@@ -17,10 +16,6 @@ namespace PingvinArv
         public string ForNamn { get; set; }
         public string EfterNamn { get; set; }
         public double Vikt { get; set; }
-        
-        public string ArtBet
-        {
-            get { return artBeteckning; }  //läser av objektets artbeteckning          
-        }
+
     }
 }
