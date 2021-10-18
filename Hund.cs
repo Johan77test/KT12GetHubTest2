@@ -9,7 +9,7 @@ namespace PingvinArv
         private int id;
         public Hund(string forNamn, string efterNamn, double vikt)
         {
-            id = 1;
+            id = 2;
             ForNamn = forNamn;
             EfterNamn = efterNamn;
             Vikt = vikt;
