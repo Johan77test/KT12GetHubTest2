@@ -7,11 +7,11 @@ namespace PingvinArv
     public class Hund
     {
         private int id;
-        public Hund(string forNamn, string eftNamn, double vikt)
+        public Hund(string forNamn, string efterNamn, double vikt)
         {
             id = 4;
             ForNamn = forNamn;
-            EfterNamn = eftNamn;
+            EfterNamn = efterNamn;
             Vikt = vikt;
         }
 
